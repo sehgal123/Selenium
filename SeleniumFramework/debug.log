@@ -1,0 +1,2 @@
+[0128/142128.233:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SUMITA~1.SEH\AppData\Local\Temp\scoped_dir7292_15599\Crashpad: The system cannot find the file specified. (0x2)
+[0128/174710.612:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\SUMITA~1.SEH\AppData\Local\Temp\scoped_dir21516_20683\Crashpad: The system cannot find the file specified. (0x2)
