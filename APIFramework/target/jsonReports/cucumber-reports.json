@@ -1,0 +1,649 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T07:44:07.198Z",
+        "line": 17,
+        "name": "Verify that Sales Rep is able to record calls",
+        "description": "",
+        "id": "account-call-creation;verify-that-sales-rep-is-able-to-record-calls;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page of Salesforce application",
+            "match": {
+              "location": "stepDefinitions.AccountCall.user_is_on_login_page_of_salesforce_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"TestUser\" and \"UserPass\" and login to application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestUser\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserPass\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.user_enters_and_and_login_to_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search for the \"TestAccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestAccount\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.search_for_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on the Record a Call button",
+            "match": {
+              "location": "stepDefinitions.AccountCall.click_on_the_record_a_call_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enters the required fields in call record form",
+            "match": {
+              "location": "stepDefinitions.AccountCall.enters_the_required_fields_in_call_record_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add the \"TestAttendee1\" and \"TestAttendee2\" in Attendees section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestAttendee1\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"TestAttendee2\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.add_the_and_in_attendees_section(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select the \"TestProduct\" in Product Section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestProduct\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.select_the_in_product_section(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Save button and Submit the form",
+            "match": {
+              "location": "stepDefinitions.AccountCall.click_on_save_button_and_submit_the_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that Call is created successfully",
+            "match": {
+              "location": "stepDefinitions.AccountCall.verify_that_call_is_created_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accountCall"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T07:44:07.298Z",
+        "line": 18,
+        "name": "Verify that Sales Rep is able to record calls",
+        "description": "",
+        "id": "account-call-creation;verify-that-sales-rep-is-able-to-record-calls;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page of Salesforce application",
+            "match": {
+              "location": "stepDefinitions.AccountCall.user_is_on_login_page_of_salesforce_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"TestUser1\" and \"UserPass1\" and login to application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestUser1\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserPass1\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.user_enters_and_and_login_to_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search for the \"TestAccount1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestAccount1\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.search_for_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on the Record a Call button",
+            "match": {
+              "location": "stepDefinitions.AccountCall.click_on_the_record_a_call_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enters the required fields in call record form",
+            "match": {
+              "location": "stepDefinitions.AccountCall.enters_the_required_fields_in_call_record_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add the \"TestAttendee11\" and \"TestAttendee21\" in Attendees section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestAttendee11\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"TestAttendee21\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.add_the_and_in_attendees_section(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select the \"TestProduct1\" in Product Section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestProduct1\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.AccountCall.select_the_in_product_section(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Save button and Submit the form",
+            "match": {
+              "location": "stepDefinitions.AccountCall.click_on_save_button_and_submit_the_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that Call is created successfully",
+            "match": {
+              "location": "stepDefinitions.AccountCall.verify_that_call_is_created_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accountCall"
+          }
+        ]
+      }
+    ],
+    "name": "Account Call Creation",
+    "description": "",
+    "id": "account-call-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/accountCall.feature",
+    "tags": [
+      {
+        "name": "@accountCall",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T07:44:07.298Z",
+        "line": 15,
+        "name": "Verify if place is being successfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validating-place-apis;verify-if-place-is-being-successfully-added-using-addplaceapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1345000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "AddPlace API Payload with \"MyHouse\" \"English\" and \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyHouse\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"English\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.addplace_api_payload_with_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1759000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User calls \"addPlaceAPI\" with \"Post\" HTTP request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API call is success with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.api_call_is_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 732000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.something_in_response_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" in response is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.something_in_response_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1809000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify place_id created is maps to \"MyHouse\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyHouse\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"getPlaceAPI\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.verify_place_id_created_is_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@placeValidation"
+          },
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T07:44:12.955Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Deleta place functionality is working",
+        "description": "",
+        "id": "validating-place-apis;verify-deleta-place-functionality-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "DeletePlace API payload",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.deletaplace_api_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1822000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User calls \"deletePlaceAPI\" with \"Post\" HTTP request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deletePlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "API call is success with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.api_call_is_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.something_in_response_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@placeValidation"
+          },
+          {
+            "name": "@DeletePlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T07:44:14.832Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Test tag for Hooks",
+        "description": "",
+        "id": "validating-place-apis;test-tag-for-hooks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "Test API Give",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Test API Wen",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.test_api_wen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Test API Ten",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.test_api_ten()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@placeValidation"
+          },
+          {
+            "name": "@TestTag"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place APIs",
+    "description": "",
+    "id": "validating-place-apis",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidation.feature",
+    "tags": [
+      {
+        "name": "@placeValidation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

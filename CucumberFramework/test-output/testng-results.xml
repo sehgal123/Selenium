@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44382" started-at="2021-01-03T14:12:12Z" finished-at="2021-01-03T14:12:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44382" started-at="2021-01-03T14:12:12Z" finished-at="2021-01-03T14:12:56Z">
+      <class name="com.demo.tests.TestSuite">
+        <test-method status="PASS" signature="TC01_SIT_Flight_Booking()[pri:1, instance:com.demo.tests.TestSuite@1a45193b]" name="TC01_SIT_Flight_Booking" duration-ms="42871" started-at="2021-01-03T14:12:12Z" finished-at="2021-01-03T14:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_SIT_Flight_Booking -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="afterMethod" is-config="true" duration-ms="773" started-at="2021-01-03T14:12:55Z" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_SIT_Flight_Booking status=SUCCESS method=TestSuite.TC01_SIT_Flight_Booking()[pri:1, instance:com.demo.tests.TestSuite@1a45193b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC02_SIT_New_User_Registration()[pri:2, instance:com.demo.tests.TestSuite@1a45193b]" name="TC02_SIT_New_User_Registration" duration-ms="6" started-at="2021-01-03T14:12:55Z" description="New User Registration" finished-at="2021-01-03T14:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_SIT_New_User_Registration -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-03T14:12:55Z" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_SIT_New_User_Registration status=SUCCESS method=TestSuite.TC02_SIT_New_User_Registration()[pri:2, instance:com.demo.tests.TestSuite@1a45193b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b]" name="TC03_SIT_Valid_Login" duration-ms="0" started-at="2021-01-03T14:12:55Z" description="Valid Login" data-provider="Test3" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[country-name-asc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_SIT_Valid_Login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-03T14:12:55Z" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_SIT_Valid_Login status=SUCCESS method=TestSuite.TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b]" name="TC03_SIT_Valid_Login" duration-ms="4" started-at="2021-01-03T14:12:55Z" description="Valid Login" data-provider="Test3" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[country-name-asc1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_SIT_Valid_Login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-01-03T14:12:55Z" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_SIT_Valid_Login status=SUCCESS method=TestSuite.TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b]" name="TC03_SIT_Valid_Login" duration-ms="4" started-at="2021-01-03T14:12:55Z" description="Valid Login" data-provider="Test3" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[country-name-asc2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_SIT_Valid_Login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-03T14:12:55Z" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_SIT_Valid_Login status=SUCCESS method=TestSuite.TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b]" name="TC03_SIT_Valid_Login" duration-ms="7" started-at="2021-01-03T14:12:55Z" description="Valid Login" data-provider="Test3" finished-at="2021-01-03T14:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[country-name-asc3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[France]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_SIT_Valid_Login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-01-03T14:12:56Z" finished-at="2021-01-03T14:12:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_SIT_Valid_Login status=SUCCESS method=TestSuite.TC03_SIT_Valid_Login(java.lang.String, java.lang.String)[pri:3, instance:com.demo.tests.TestSuite@1a45193b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demo.tests.TestSuite@1a45193b]" name="teardown" is-config="true" duration-ms="568" started-at="2021-01-03T14:12:56Z" finished-at="2021-01-03T14:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demo.tests.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

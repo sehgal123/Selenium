@@ -1,0 +1,8 @@
+2021-01-03 19:42:12 INFO  MyLogger:259 - Launch Blaze Demo Application
+2021-01-03 19:42:21 INFO  MyLogger:259 - Find Flight Details
+2021-01-03 19:42:32 INFO  MyLogger:259 - Select Flight
+2021-01-03 19:42:41 INFO  MyLogger:259 - Enter Details To Book the Flight
+2021-01-03 19:42:54 INFO  MyLogger:259 - Flight Details Entered
+2021-01-03 19:42:54 INFO  MyLogger:259 - Click on Book Flight Button
+2021-01-03 19:42:54 INFO  MyLogger:277 - Filght Booked with Flight Id: 1609683170326
+2021-01-03 19:42:54 INFO  MyLogger:259 - Close Application

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite1]" parallel="tests">
+  <test thread-count="5" name="Regression1(failed)" parallel="tests">
+    <classes>
+      <class name="com.demo.tests.TestSuite">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="TC01_SIT_Flight_Booking"/>
+        </methods>
+      </class> <!-- com.demo.tests.TestSuite -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [RegressionSuite1] -->
